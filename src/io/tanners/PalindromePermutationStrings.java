@@ -15,24 +15,24 @@ public class PalindromePermutationStrings {
 
 
 
-        System.out.println(" :" + permutationPalindromeCheckerMethodOne("Tact Coa"));
-        System.out.println(" :" + permutationPalindromeCheckerMethodOne("yeeuyuss"));
-        System.out.println(" :" + permutationPalindromeCheckerMethodOne("yeeuyussa"));
-        System.out.println(" :" + permutationPalindromeCheckerMethodOne("acebdf"));
-        System.out.println(" :" + permutationPalindromeCheckerMethodOne("aabbccddeeff"));
-        System.out.println(" :" + permutationPalindromeCheckerMethodOne("aabbccddeeffzy"));
-        System.out.println(" :" + permutationPalindromeCheckerMethodOne("aabbccddeeffz"));
+        System.out.println(permutationPalindromeCheckerMethodOne("Tact Coa"));
+        System.out.println(permutationPalindromeCheckerMethodOne("yeeuyuss"));
+        System.out.println(permutationPalindromeCheckerMethodOne("yeeuyussa"));
+        System.out.println(permutationPalindromeCheckerMethodOne("acebdf"));
+        System.out.println(permutationPalindromeCheckerMethodOne("aabbccddeeff"));
+        System.out.println(permutationPalindromeCheckerMethodOne("aabbccddeeffzy"));
+        System.out.println(permutationPalindromeCheckerMethodOne("aabbccddeeffz"));
         System.out.println();
 
 
 
-        System.out.println(" :" + permutationPalindromeCheckerMethodTwo("Tact Coa"));
-        System.out.println(" :" + permutationPalindromeCheckerMethodTwo("yeeuyuss"));
-        System.out.println(" :" + permutationPalindromeCheckerMethodTwo("yeeuyussa"));
-        System.out.println(" :" + permutationPalindromeCheckerMethodTwo("acebdf"));
-        System.out.println(" :" + permutationPalindromeCheckerMethodTwo("aabbccddeeff"));
-        System.out.println(" :" + permutationPalindromeCheckerMethodTwo("aabbccddeeffzy"));
-        System.out.println(" :" + permutationPalindromeCheckerMethodTwo("aabbccddeeffz"));
+        System.out.println(permutationPalindromeCheckerMethodTwo("Tact Coa"));
+        System.out.println(permutationPalindromeCheckerMethodTwo("yeeuyuss"));
+        System.out.println(permutationPalindromeCheckerMethodTwo("yeeuyussa"));
+        System.out.println(permutationPalindromeCheckerMethodTwo("acebdf"));
+        System.out.println(permutationPalindromeCheckerMethodTwo("aabbccddeeff"));
+        System.out.println(permutationPalindromeCheckerMethodTwo("aabbccddeeffzy"));
+        System.out.println(permutationPalindromeCheckerMethodTwo("aabbccddeeffz"));
 //
 
 
