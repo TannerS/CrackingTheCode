@@ -1,4 +1,4 @@
-package io.tanners;
+package io.tanners.Strings;
 
 /**
  *
