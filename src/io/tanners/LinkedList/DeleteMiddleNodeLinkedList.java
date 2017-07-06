@@ -11,26 +11,26 @@ public class DeleteMiddleNodeLinkedList {
         list.add(102);// 4 d
         list.add(103);// 5 e
         list.add(104);// 6 f
-//        list.add(105);// 7
-//        list.add(106);// 8
-//        list.add(107);// 9
-//        list.add(108);// 10
-//        list.add(109);// 11
-//        list.add(110);// 12
-//        list.add(111);// 13 - mid?
-//        list.add(112);// 14
-//        list.add(113);// 15
-//        list.add(114);// 16
-//        list.add(115);// 17
-//        list.add(116);// 18
-//        list.add(117); // 19
-//        list.add(118); // 20
-//        list.add(119); // 21
-//        list.add(120); // 22
-//        list.add(121); // 23
-//        list.add(122); // 24
-//        list.add(123); // 25
-//        list.add(124); // 26
+        list.add(105);// 7
+        list.add(106);// 8
+        list.add(107);// 9
+        list.add(108);// 10
+        list.add(109);// 11
+        list.add(110);// 12
+        list.add(111);// 13 - mid?
+        list.add(112);// 14
+        list.add(113);// 15
+        list.add(114);// 16
+        list.add(115);// 17
+        list.add(116);// 18
+        list.add(117); // 19
+        list.add(118); // 20
+        list.add(119); // 21
+        list.add(120); // 22
+        list.add(121); // 23
+        list.add(122); // 24
+        list.add(123); // 25
+        list.add(124); // 26
 
 
         deleteMiddle(list.getHead());
