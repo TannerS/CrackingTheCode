@@ -4,6 +4,8 @@ import java.util.LinkedList;
 
 /*
     this assumes a string that does not have spaces at start, end or anything above a single space between chars
+
+    2.6
  */
 
 public class PalindromeLinkedList
