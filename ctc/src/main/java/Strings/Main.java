@@ -1,4 +1,4 @@
-package io.tanners.Strings;
+package Strings;
 
 public class Main {
 

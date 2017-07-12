@@ -1,4 +1,4 @@
-package io.tanners.LinkedList;
+package LinkedList;
 
 // TODO based on solution, had problems with question format
 public class ParitionLinkedList {

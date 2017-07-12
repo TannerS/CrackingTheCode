@@ -1,4 +1,4 @@
-package io.tanners.Strings;
+package Strings;
 
 import java.util.HashMap;
 import java.util.HashSet;

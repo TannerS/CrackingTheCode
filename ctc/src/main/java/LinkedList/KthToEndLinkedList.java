@@ -1,4 +1,4 @@
-package io.tanners.LinkedList;
+package LinkedList;
 
 /*
     2.2

@@ -1,4 +1,4 @@
-package io.tanners.Strings;
+package Strings;
 
 /**
  * Created by tanners on 6/26/17.
