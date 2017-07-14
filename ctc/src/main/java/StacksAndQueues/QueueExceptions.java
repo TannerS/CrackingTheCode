@@ -1,7 +1,7 @@
 package StacksAndQueues;
 
 
-public class Queue {
+public class QueueExceptions {
 
     public class QueueFullException extends Exception {
         public QueueFullException(String message) {

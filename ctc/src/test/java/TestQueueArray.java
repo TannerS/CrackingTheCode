@@ -1,11 +1,7 @@
 
-import StacksAndQueues.Queue;
 import StacksAndQueues.QueueArray;
-import StacksAndQueues.QueueLinkedList;
 
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class TestQueueArray {
 

@@ -1,11 +1,17 @@
 package StacksAndQueues;
 
-import java.util.*;
-
-public class QueueLinkedList<E> extends Queue implements IQueue {
+public class QueueLinkedList<E> extends QueueExceptions implements IQueue {
 
     private Node head;
     private Node tail;
+    private int size;
+
+    public QueueLinkedList()
+    {
+        this.size = 0;
+        this.head = null;
+        this.tail = null;
+    }
 
     /**
      * Peek at data at front of queue
@@ -35,6 +41,9 @@ public class QueueLinkedList<E> extends Queue implements IQueue {
     @Override
     @SuppressWarnings("unchecked")
     public void enqueue(Object data) {
+
+
+
         Node newNode = new Node((E) data);
 
         if(isEmpty())
@@ -48,6 +57,8 @@ public class QueueLinkedList<E> extends Queue implements IQueue {
             this.head.prev = newNode;
             this.head = newNode;
         }
+
+        this.size++;
     }
 
     /**
@@ -58,13 +69,26 @@ public class QueueLinkedList<E> extends Queue implements IQueue {
     @Override
     @SuppressWarnings("unchecked")
     public E dequeue() {
+
         try {
             if (!isEmpty()) {
                 E element = (E) this.tail.data;
-                Node prev = this.tail.prev;
-                this.tail.prev = null;
-                prev.next = null;
-                this.tail = prev;
+
+                this.size--;
+
+                if(isEmpty())
+                {
+                    this.tail = null;
+                    this.head = null;
+                }
+                else
+                {
+                    Node prev = this.tail.prev;
+                    this.tail.prev = null;
+                    prev.next = null;
+                    this.tail = prev;
+                }
+
                 return element;
             } else
                 throw new QueueEmptyException("Queue is empty");
@@ -74,6 +98,20 @@ public class QueueLinkedList<E> extends Queue implements IQueue {
         }
     }
 
+    @Override
+    public String toString()
+    {
+        StringBuilder str = new StringBuilder();
+
+        for(Node cur = this.head; cur != null; cur = cur.next)
+        {
+            str.append(cur.data);
+            str.append(", ");
+        }
+
+        return str.toString();
+    }
+
     /**
      * Check is queue is empty
      *
@@ -81,7 +119,8 @@ public class QueueLinkedList<E> extends Queue implements IQueue {
      */
     @Override
     public boolean isEmpty() {
-        return this.tail == null || this.head == null;
+        return this.size == 0;
+//        return this.tail == null || this.head == null;
     }
 
 

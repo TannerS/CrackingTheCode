@@ -1,9 +1,7 @@
 package StacksAndQueues;
 
 
-import java.util.Arrays;
-
-public class QueueArray<E> extends Queue implements IQueue{
+public class QueueArray<E> extends QueueExceptions implements IQueue{
 
     public static void main (String[] args)
     {
